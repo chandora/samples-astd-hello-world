@@ -1,5 +1,5 @@
 # Hello World Skill with Alexa Skill Test Driver (ASTD)
-This is a sample skill and test code to demonstrate the automated conversation testing
+This is a sample test data to demonstrate the automated conversation testing
 by ASTD for the Alexa skill development.
 
 ## Getting Started
@@ -11,17 +11,12 @@ npm test
 ```
 
 ## Setting Up Alexa Skill
-The test in this repository assumes you have a running Hello World skill in your account.
-You can set up the Hello World skill with one of the following ways:
-
-* create a new Hello World skill from scratch in the Alexa Developer Console
-* create a new Hello World skill by importing this repository in the Alexa Developer Console
-* use an existing Hello World skill if you have
+You need to have Hello World skill in your account.
 
 ## Configuration
 You need to fulfil the configuration file.
 
-```
+```json
 ./lambda/test/config.json
 ```
 
