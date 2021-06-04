@@ -1,0 +1,15 @@
+{
+  "name": "astd-test-data-for-hello-world-skill",
+  "version": "1.0.0",
+  "description": "A sample test data for Hello World skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 --slow 3000"
+  },
+  "author": "chandora",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.6.0",
+    "alexa-skill-test-driver": "^0.4.0"
+  }
+}
