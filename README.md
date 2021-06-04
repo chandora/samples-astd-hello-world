@@ -1,4 +1,4 @@
-# Hello World Skill with Alexa Skill Test Driver (ASTD)
+# Sample Test Data for Alexa Skill Test Driver (ASTD)
 This is a sample test data to demonstrate the automated conversation testing
 by ASTD for the Alexa skill development.
 
@@ -10,7 +10,7 @@ cd lambda
 npm test
 ```
 
-## Setting Up Alexa Skill
+## Prerequisite Alexa Skill
 You need to have Hello World skill in your account.
 
 ## Configuration
