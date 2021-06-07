@@ -1,7 +1,7 @@
 import * as Astd from 'alexa-skill-test-driver';
 import * as config from './config.json';
 
-const testGroup: Astd.TestGroup = {
+const testData: Astd.TestData = {
     title: 'Test Hello World',
     locale: 'en-US',
     testCases: [
@@ -79,4 +79,4 @@ const testGroup: Astd.TestGroup = {
     ]
 };
 
-(async () => await Astd.executeTestGroup(testGroup, config))();
+(async () => await Astd.executeTestGroup(testData, config))();
